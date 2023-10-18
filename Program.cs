@@ -29,7 +29,6 @@ namespace ConsoleApp6
                     {
                         if (group.Count() > 1)
                         {
-                            //prova di modific git
                             int count = 1;
                             foreach (Fumetto fumetto in group)
                             {
