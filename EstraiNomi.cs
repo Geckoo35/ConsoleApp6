@@ -31,7 +31,7 @@ namespace ConsoleApp6
 
                     if (elements != null && elements.Count >= 3)
                     {
-                        HtmlNode element = elements[51];
+                        HtmlNode element = elements.Last();
 
                         string scriptText = element.InnerText;
 
